@@ -16,4 +16,4 @@ Hoc kì II - Năm 2 (Năm học: 2021 - 2022)
 
 Giáo viên hướng dẫn làm đồ án: Thầy Võ Phương Bình
 
-Link GitHub: https://github.com/hoangminhbao8102/DoAnTotNghiep-CTK44
+Link GitHub: https://github.com/hoangminhbao8102/DoAnCoSo-CTK44
