@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Kỳ họp Quốc Hội",
+        "content": "Nội dung kỳ họp...",
+        "details": "Chi tiết kỳ họp Quốc Hội diễn ra với nhiều nội dung quan trọng về kinh tế và xã hội.",
+        "category": "news",
+        "type": "domestic"
+    },
+    {
+        "id": 2,
+        "title": "Hội nghị quốc tế",
+        "content": "Nội dung hội nghị...",
+        "details": "Hội nghị quốc tế đã quy tụ nhiều quốc gia tham gia bàn luận về các vấn đề môi trường.",
+        "category": "news",
+        "type": "international"
+    },
+    {
+        "id": 3,
+        "title": "Chương trình ca nhạc",
+        "content": "Nội dung ca nhạc...",
+        "details": "Chương trình ca nhạc hoành tráng đã thu hút hàng nghìn khán giả.",
+        "category": "entertainment",
+        "type": "domestic"
+    },
+    {
+        "id": 4,
+        "title": "Liên hoan phim quốc tế",
+        "content": "Nội dung liên hoan phim...",
+        "details": "Liên hoan phim quốc tế mang đến nhiều tác phẩm đặc sắc.",
+        "category": "entertainment",
+        "type": "international"
+    },
+    {
+        "id": 5,
+        "title": "Giải bóng đá quốc gia",
+        "content": "Nội dung bóng đá quốc gia...",
+        "details": "Giải bóng đá quốc gia thu hút sự chú ý của người hâm mộ.",
+        "category": "sports",
+        "type": "domestic"
+    },
+    {
+        "id": 6,
+        "title": "World Cup 2024",
+        "content": "Nội dung World Cup...",
+        "details": "World Cup 2024 mang đến những trận đấu kịch tính.",
+        "category": "sports",
+        "type": "international"
+    },
+    {
+        "id": 7,
+        "title": "Chính sách mới về kinh tế",
+        "content": "Nội dung chính sách...",
+        "details": "Chính sách kinh tế mới tạo cơ hội phát triển cho doanh nghiệp trong nước.",
+        "category": "news",
+        "type": "domestic"
+    },
+    {
+        "id": 8,
+        "title": "Hội thảo kinh tế toàn cầu",
+        "content": "Nội dung hội thảo...",
+        "details": "Hội thảo quy tụ chuyên gia kinh tế từ nhiều nước.",
+        "category": "news",
+        "type": "international"
+    },
+    {
+        "id": 9,
+        "title": "Liveshow âm nhạc mùa hè",
+        "content": "Nội dung liveshow...",
+        "details": "Liveshow hoành tráng với sự tham gia của nhiều nghệ sĩ nổi tiếng.",
+        "category": "entertainment",
+        "type": "domestic"
+    },
+    {
+        "id": 10,
+        "title": "Concert quốc tế",
+        "content": "Nội dung concert...",
+        "details": "Concert quốc tế mang đến trải nghiệm âm nhạc đỉnh cao.",
+        "category": "entertainment",
+        "type": "international"
+    },
+    {
+        "id": 11,
+        "title": "Giải đấu bóng rổ quốc gia",
+        "content": "Nội dung bóng rổ...",
+        "details": "Giải đấu bóng rổ quốc gia thu hút sự tham gia của nhiều đội tuyển mạnh.",
+        "category": "sports",
+        "type": "domestic"
+    },
+    {
+        "id": 12,
+        "title": "Olympic 2024",
+        "content": "Nội dung Olympic...",
+        "details": "Olympic 2024 hứa hẹn nhiều kỷ lục mới được thiết lập.",
+        "category": "sports",
+        "type": "international"
+    }
+]

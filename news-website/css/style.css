@@ -3,6 +3,7 @@ body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 body {
@@ -51,13 +52,152 @@ main {
     padding: 20px;
 }
 
-article {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
+/* Menu chính */
+.menu {
+    display: flex;
+    list-style: none;
+    background-color: #0056b3;
+    padding: 10px 0;
+    justify-content: center;
+    margin: 0;
+}
+
+.menu li {
+    position: relative; /* Để submenu được căn chỉnh theo cha */
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #ffd700;
+    color: #0056b3;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
     background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    display: none; /* Ẩn submenu */
+    z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Độ rộng cố định */
+}
+
+/* Hiển thị submenu khi hover */
+.menu li:hover .submenu {
+    display: block;
+}
+
+/* Phong cách các mục trong submenu */
+.submenu li {
+    margin: 0;
+    padding: 0;
+}
+
+.submenu li a {
+    display: block;
+    color: #333;
+    padding: 10px 15px; /* Khoảng cách bên trong */
+    text-align: left; /* Căn chữ về bên trái */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.submenu li a:hover {
+    background-color: #f8f9fa; /* Màu nền khi hover */
+}
+
+/* Định dạng nhóm danh mục */
+.category-group {
+    margin-bottom: 40px; /* Khoảng cách giữa các nhóm */
+}
+
+.category-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cột */
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    max-width: 1200px; /* Giới hạn chiều rộng tổng thể */
+    margin: 0 auto; /* Căn giữa */
+    padding: 0 20px; /* Thêm khoảng cách hai bên */
+}
+
+/* Phong cách bài viết */
+.article {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.article button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.article button:hover {
+    background-color: #0056b3;
+}
+
+.article-details button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.article-details button i {
+    margin-right: 8px; /* Khoảng cách giữa icon và text */
+    font-size: 20px;
+}
+
+.article-details button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.article-details button:active {
+    transform: scale(0.95);
 }
 
 footer {

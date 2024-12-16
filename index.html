@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog của BAOMINH</title>
     <link rel="stylesheet" href="/news-website/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
@@ -17,9 +17,27 @@
             <ul class="menu">
                 <li><a href="#" onclick="loadPage('home')">TRANG CHỦ</a></li>
                 <li><a href="#" onclick="loadPage('about')">GIỚI THIỆU</a></li>
-                <li><a href="#" onclick="loadPage('news')">TIN TỨC</a></li>
-                <li><a href="#" onclick="loadPage('entertainment')">GIẢI TRÍ</a></li>
-                <li><a href="#" onclick="loadPage('sports')">THỂ THAO</a></li>
+                <li class="dropdown">
+                    <a href="#">TIN TỨC</a>
+                    <ul class="submenu">
+                        <li><a href="#" onclick="loadCategory('news', 'domestic')">TRONG NƯỚC</a></li>
+                        <li><a href="#" onclick="loadCategory('news', 'international')">QUỐC TẾ</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">GIẢI TRÍ</a>
+                    <ul class="submenu">
+                        <li><a href="#" onclick="loadCategory('entertainment', 'domestic')">TRONG NƯỚC</a></li>
+                        <li><a href="#" onclick="loadCategory('entertainment', 'international')">QUỐC TẾ</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">THỂ THAO</a>
+                    <ul class="submenu">
+                        <li><a href="#" onclick="loadCategory('sports', 'domestic')">TRONG NƯỚC</a></li>
+                        <li><a href="#" onclick="loadCategory('sports', 'international')">QUỐC TẾ</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
@@ -31,7 +49,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 - BAOMINH'S BLOG</p>
+        <p>&copy; 2022 - BAOMINH'S BLOG</p>
     </footer>
 
     <script src="/news-website/js/script.js"></script>
