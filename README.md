@@ -17,3 +17,5 @@
 <strong>Giáo viên hướng dẫn làm đồ án:</strong> Thầy Võ Phương Bình
 
 <strong>Link GitHub:</strong> <a href="https://github.com/hoangminhbao8102/DoAnCoSo-CTK44" target="_blank">https://github.com/hoangminhbao8102/DoAnCoSo-CTK44</a>
+
+<h1 style="color:red;">ĐÃ HOÀN THÀNH</h1>
